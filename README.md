@@ -15,7 +15,12 @@ Quick implementation as of the specifications of the takehome
 
 ```bash
 docker build -t sandtiger-research-takehome .
+```
 
 2. **Run the Docker image:**
-docker run --rm sandtiger-research-takehome
+
+```bash
+docker build -t sandtiger-research-takehome .
+```
+
 
