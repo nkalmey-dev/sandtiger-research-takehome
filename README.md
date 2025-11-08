@@ -20,7 +20,7 @@ docker build -t sandtiger-research-takehome .
 2. **Run the Docker image:**
 
 ```bash
-docker build -t sandtiger-research-takehome .
+docker run --rm sandtiger-research-takehome
 ```
 
 
