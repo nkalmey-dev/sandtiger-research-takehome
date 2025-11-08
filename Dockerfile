@@ -2,7 +2,6 @@ FROM gradle:6.9-jdk8 AS build
 
 WORKDIR /app
 COPY . .
-RUN chmod +x gradlew 
 RUN gradle clean build --no-daemon
 
 FROM amazoncorretto:8-alpine
